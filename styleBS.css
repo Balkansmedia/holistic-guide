@@ -549,7 +549,13 @@ popover-body-padding-y: .5rem;
 			color: #dd0b26;
 			font-size: 16px;
 			
-}		
+}	
+
+.ch-card-text {
+  padding: 5px;
+  margin-left: 25%;
+  margin-top: 2%;
+}
 
       .b-example-divider {
         width: 100%;
