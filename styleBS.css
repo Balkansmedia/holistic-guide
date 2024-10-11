@@ -590,21 +590,24 @@ popover-body-padding-y: .5rem;
       }
 			
 .card-title01{
-	font-size: 8rem;}
+	font-size: 7rem;}
 
 .card-title02 {
-      font-size: 8rem;
+      font-size: 7rem;
     }
 
 .card-title03 {
-  font-size: 8rem;
+  font-size: 7rem;
 }
 
 .card-title04 {
-  font-size: 8rem;
+  font-size: 7rem;
 }
 			
+.card-text01, .card-text02, .card-text03, .card-text04 {
+  font-size: 18px;
 
+}
 
       .btn-bd-primary {
         --bd-violet-bg: #712cf9;
