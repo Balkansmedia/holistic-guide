@@ -67,7 +67,9 @@ body {
 .bg-orange{
 	background-color: #ff4a01;
 }
-
+.bg-lemon{
+	background-color: #FCB307;
+}
 .navbar-toggler-icon{
 	
 	border: 2px solid #520815;
@@ -357,6 +359,12 @@ body {
 	background-color: #ff4a01;
 	padding: 5px 5px 5px 8px ;
 }
+.emptextCH04{
+	font-weight: 700;
+	font-size: 31px;
+	background-color: #FCB307;
+	padding: 5px 5px 5px 8px ;
+}
 .two-column-list {
   column-count: 2; /* Create two columns */
   column-gap: 40px; /* Increase space between columns */
@@ -515,13 +523,81 @@ popover-body-padding-y: .5rem;
   transform: rotate(2deg) translate(.35em, -.15em) scale(1.02);
   background: #ff4a01;
 }
-.speech-bubble02:before {
+.speech-bubble03:before {
   border: solid 0 transparent;
   border-right: solid 3.5em #520815;
   border-bottom: solid .25em #520815;
   bottom: .25em; left: 1.25em;
   width: 0; height: 1em;
   transform: rotate(45deg) skewX(75deg);
+}
+
+.speech-bubble04 {
+  position: relative;
+  margin: .5em auto;
+  padding: 1em;
+  width: 75%; height:auto;
+  border-radius: .25em;
+  transform: rotate(-4deg) rotateY(15deg);
+  background: #520815;
+	font-size: 1.2rem;
+	color: #520815;
+	font-weight: 400;
+  text-align: center;
+	margin-bottom: 10%;
+}
+.speech-bubble04:before, .speech-bubble04:after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+}
+.speech-bubble04:after {
+  top: 0; right: 0; bottom: 0; left: 0;
+  border-radius: inherit;
+  transform: rotate(2deg) translate(.35em, -.15em) scale(1.02);
+  background: #FCB307;
+}
+.speech-bubble04:before {
+  border: solid 0 transparent;
+  border-right: solid 3.5em #520815;
+  border-bottom: solid .25em #520815;
+  bottom: .25em; left: 1.25em;
+  width: 0; height: 1em;
+  transform: rotate(45deg) skewX(75deg);
+}
+
+.speech-bubble04a {
+  position: relative;
+  margin: .5em auto;
+  padding: 1em;
+  width: 100%; height:auto;
+  border-radius: .25em;
+  transform: rotate(-4deg) rotateY(15deg);
+  background: #520815;
+	font-size: 1.2rem;
+	color: #520815;
+	font-weight: 400;
+  text-align: center;
+	margin-bottom: 10%;
+}
+.speech-bubble04a:before, .speech-bubble04a:after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+}
+.speech-bubble04a:after {
+  top: 0; right: 0; bottom: 0; left: 0;
+  border-radius: inherit;
+  transform: rotate(1deg) translate(.35em, -.15em) scale(1.02);
+  background: #FCB307;
+}
+.speech-bubble04a:before {
+  border: solid 0 transparent;
+  border-right: solid 3.5em #520815;
+  border-bottom: solid .25em #520815;
+  bottom: .25em; left: 1.25em;
+  width: 0; height: 1em;
+  transform: rotate(45deg) skewX(60deg);
 }
 
 #svijetlitekst {
