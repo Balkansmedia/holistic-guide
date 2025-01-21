@@ -108,9 +108,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<p>- Jennifer Adams, Pen to Paper, Project Team </p>
 			</div>
 	<p><span class="emptext">→  A holistic approach to safety encompasses </span></p>
-<p>Changing  the narrative on the safety of women journalists is necessary to reflect the reality of women’s lived experiences, highlight community knowledge and solutions, and address Technology Facilitated Gender-Based Violence (TFGBV) and other forms of gendered online violence as a component of gendered manipulated information (GD), which affects us all and our democracies.</p>
+<p>Changing  the narrative on the safety of women journalists is necessary to reflect the reality of women’s lived experiences, highlight community knowledge and solutions, and address Technology Facilitated Gender-Based Violence (TFGBV) and other forms of gendered online violence as a component of gendered disinformation (GD), which affects us all and our democracies.</p>
 			
-<p>When it comes to women journalists, prevailing narratives focus almost exclusively on online violence and women’s vulnerability, rather than on the systems and perpetrators that enable this type of abuse - normalizing and even profiting off the harm caused to women, and the broader public. This narrative and lack of holistic approach also emphasise women’s vulnerability, and direct funding to a narrow set of digital security tools as the only option for protection, thereby positioning women as both victims and responsible for their own <button type="button" class="btn btn-lg" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-title="<h4>Gendered manipulated information and online harassment:</h4>" data-bs-content="<strong>Online harassment can easily escalate and become polymorphous attack which is characterized by:</strong><ul>
+<p>When it comes to women journalists, prevailing narratives focus almost exclusively on online violence and women’s vulnerability, rather than on the systems and perpetrators that enable this type of abuse - normalizing and even profiting off the harm caused to women, and the broader public. This narrative and lack of holistic approach also emphasise women’s vulnerability, and direct funding to a narrow set of digital security tools as the only option for protection, thereby positioning women as both victims and responsible for their own <button type="button" class="btn btn-lg" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-title="<h4>Gendered disinformation and online harassment:</h4>" data-bs-content="<strong>Online harassment can easily escalate and become polymorphous attack which is characterized by:</strong><ul>
 	<li><strong>cross-platform nature:</strong> different platforms and online spaces (e.g YouTube, Facebook, Gmail);</li>	
 	<li><strong>different forms of expression </strong>(e.g. meme or doctored image);</li>
 	<li><strong>different profiles and closed groups </strong>(e.g. Reddit-channels);</li>
@@ -124,8 +124,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			
 <ul class="two-column-list">
 	<li>Engage with opportunities for progress, rather than just focusing on obstacles and vulnerabilities that women (and other marginalized identities) face.</li>
-	<li>Shift the focus from women as targets of <a class="strongpop" data-bs-toggle="tooltip" data-bs-title="Technology Facilitated Gender-based Violence/Gendered Manipulated Information">TFGBV/GD</a>  to the perpetrators, in their many forms.</li>
-	<li class="muted">To support targets of <a class="strongpop" data-bs-toggle="tooltip" data-bs-title="Technology Facilitated Gender-based Violence/Gendered Manipulated Information">TFGBV/GD</a>, effective and sustainable remedies address physical, emotional, and community security.</li>
+	<li>Shift the focus from women as targets of <a class="strongpop" data-bs-toggle="tooltip" data-bs-title="Technology Facilitated Gender-based Violence/Gendered disinformation">TFGBV/GD</a>  to the perpetrators, in their many forms.</li>
+	<li class="muted">To support targets of <a class="strongpop" data-bs-toggle="tooltip" data-bs-title="Technology Facilitated Gender-based Violence/Gendered disinformation">TFGBV/GD</a>, effective and sustainable remedies address physical, emotional, and community security.</li>
 	<li>Address <a class="strongpop" data-bs-toggle="tooltip" data-bs-title="Technology Facilitated Gender-Based Violence">TFGBV</a>  as one method for gendering disinformation, and to highlight the layered impact on individuals, communities, and democratic processes.</li>
 	<li>Impactful and sustainable engagement to combat TFGBV/GD must prioritise women’s experiences and expertise, and the holistic and structural obstacles that threaten women’s equal representation, participation, and safety in the media ecosystem.</li>
 </ul>
@@ -193,8 +193,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<img alt="USAID logo" src="images/USAID_RGB_294.png" style="margin-right: 20px; margin-bottom: 30px;"> <img alt="Internews Logo" src="images/internews.png" style="margin-right: 20px; margin-bottom: 30px;">
 	   <p class="small-text"><strong>The Gender and Media pilot project</strong> was carried out under the auspices of the <strong>Balkan Media Assistance Program to Foster Organizational Readiness While Advancing Resilient Development (BMAP Forward), funded by USAID and implemented by Internews as part of the PROGRESS Human Rights Support Mechanism.</strong> The pilot project was established to address the nuanced and complex obstacles to participation, representation, and safety that women journalists working in Balkans media face. To address these complex issues, we employed a holistic set of tools, participatory methodology and intersectional lens to investigate and rethink existing narratives about women’s experiences in media, and the perception of women’s role as journalists and media workers - locally, regionally, and from a broader global perspective.</p>
 	  </div>
-	 
-    
   </footer>
 	  <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -225,11 +223,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<script>
 	 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-	 const tooltip = new bootstrap.Tooltip(element, {
-  popperConfig(defaultBsPopperConfig) {
-    // const newPopperConfig = {...}
-    // use defaultBsPopperConfig if needed...
-    // return newPopperConfig</script>
+   const element = document.querySelector('[data-bs-toggle="tooltip"]');
+   const tooltip = new bootstrap.Tooltip(element, {
+    popperConfig(defaultBsPopperConfig) {
+      // const newPopperConfig = {...}
+      // use defaultBsPopperConfig if needed...
+      // return newPopperConfig;
+    }});
+  </script>
 	 <script>
   document.addEventListener('DOMContentLoaded', function () {
     var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
